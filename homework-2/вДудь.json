@@ -1,48 +1,9 @@
 {
-  "kind": "youtube#channelListResponse",
-  "etag": "pej8Ui0_rzF1DcBaPaDdR4IwyC4",
-  "pageInfo": {
-    "totalResults": 1,
-    "resultsPerPage": 5
-  },
-  "items": [
-    {
-      "kind": "youtube#channel",
-      "etag": "h83A5h44uAHGQr9Me8pwRm3lemo",
-      "id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
-      "snippet": {
-        "title": "вƒудь",
-        "description": "«десь задают вопросы",
-        "customUrl": "@vdud",
-        "publishedAt": "2014-01-03T06:27:22Z",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s88-c-k-c0x00ffffff-no-rj",
-            "width": 88,
-            "height": 88
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s240-c-k-c0x00ffffff-no-rj",
-            "width": 240,
-            "height": 240
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s800-c-k-c0x00ffffff-no-rj",
-            "width": 800,
-            "height": 800
-          }
-        },
-        "localized": {
-          "title": "вƒудь",
-          "description": "«десь задают вопросы"
-        }
-      },
-      "statistics": {
-        "viewCount": "1984417924",
-        "subscriberCount": "10300000",
-        "hiddenSubscriberCount": false,
-        "videoCount": "167"
-      }
-    }
-  ]
+  "id канала": "UCMCgOm8GZkHp8zJ6l7_hIuA",
+  "название канала": "вƒудь",
+  "описание канала": "«десь задают вопросы",
+  "ссылка на канал": "https://www.youtube.com/channel/UCMCgOm8GZkHp8zJ6l7_hIuA",
+  "количество подписчиков": "10300000",
+  "количество видео": "167",
+  "общее количество просмотров": "1984417924"
 }

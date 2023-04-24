@@ -26,7 +26,15 @@ class Channel:
 
     def to_json(self):
         with open(f'{self.title}.json', 'w') as file:
-            json.dump(self.channel, file, indent=2, ensure_ascii=False)
+            json_channel = ({'id канала': self.__channel_id,
+                             'название канала': self.title,
+                             'описание канала': self.description,
+                             'ссылка на канал': self.url,
+                             'количество подписчиков': self.subscriberCount,
+                             'количество видео': self.videoCount,
+                             'общее количество просмотров': self.viewCount
+                             })
+            json.dump(json_channel, file, indent=2, ensure_ascii=False)
 
     @classmethod
     def get_service(cls, channel_id):
