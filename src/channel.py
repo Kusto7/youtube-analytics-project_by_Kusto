@@ -17,7 +17,7 @@ class Channel:
         self.description = channel['items'][0]['snippet']['description']
         self.url = "https://www.youtube.com/channel/" + self.__channel_id
         self.subscriberCount = channel['items'][0]['statistics']['subscriberCount']
-        self.videoCount = channel['items'][0]['statistics']['videoCount']
+        self.video_count = channel['items'][0]['statistics']['videoCount']
         self.viewCount = channel['items'][0]['statistics']['viewCount']
 
     def print_info(self):
@@ -31,7 +31,7 @@ class Channel:
                              'описание канала': self.description,
                              'ссылка на канал': self.url,
                              'количество подписчиков': self.subscriberCount,
-                             'количество видео': self.videoCount,
+                             'количество видео': self.video_count,
                              'общее количество просмотров': self.viewCount
                              })
             json.dump(json_channel, file, indent=2, ensure_ascii=False)
