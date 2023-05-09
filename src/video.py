@@ -11,7 +11,7 @@ class Video:
                                                id=self.id_video
                                                ).execute()
         self.video_response = video_response
-        self.url = "https://www.youtube.com/watch?v=" + self.id_video
+        self.url = "https://youtu.be/" + self.id_video
         self.video_title: str = video_response['items'][0]['snippet']['title']
         self.view_count: int = video_response['items'][0]['statistics']['viewCount']
         self.like_count: int = video_response['items'][0]['statistics']['likeCount']
